@@ -1,0 +1,70 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "85218625448810c28d4b74bede898674",
+    "packages": [
+        {
+            "name": "activecollab/activecollab-feather-sdk",
+            "version": "3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/activecollab/activecollab-feather-sdk.git",
+                "reference": "851a3e607e1d597cda2b8d67ca8584d231261d20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/activecollab/activecollab-feather-sdk/zipball/851a3e607e1d597cda2b8d67ca8584d231261d20",
+                "reference": "851a3e607e1d597cda2b8d67ca8584d231261d20",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ActiveCollab\\SDK\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ilija Studen",
+                    "email": "ilija.studen@activecollab.com"
+                }
+            ],
+            "description": "This is a simple PHP library that makes communication with Active Collab API easy",
+            "homepage": "https://github.com/activecollab/activecollab-feather-sdk",
+            "keywords": [
+                "activecollab",
+                "api",
+                "sdk"
+            ],
+            "support": {
+                "issues": "https://github.com/activecollab/activecollab-feather-sdk/issues",
+                "source": "https://github.com/activecollab/activecollab-feather-sdk/tree/master"
+            },
+            "time": "2019-03-15T22:37:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
